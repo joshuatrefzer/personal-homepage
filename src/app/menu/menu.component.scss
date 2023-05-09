@@ -1,0 +1,26 @@
+header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 2;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    img {
+        height: 50px;
+        padding: 0 80px;
+
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-size: 20px;
+        margin: 0 20px;
+    }
+   
+}
