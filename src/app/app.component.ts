@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppComponent implements OnInit {
   images = ['code.jpg', 'pc-img.jpg'];
+  headlines = ['Bring engeneering to the next level', 'Born to Code'];
   currentImage = 0;
   showImage = true;
 
@@ -28,8 +29,5 @@ export class AppComponent implements OnInit {
     }, 5000);
 
   }
-
-
-
 
 }
