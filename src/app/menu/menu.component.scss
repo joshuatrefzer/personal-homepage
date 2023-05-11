@@ -3,7 +3,7 @@ header {
     left: 0;
     right: 0;
     top: 0;
-    z-index: 2;
+    z-index: 10;
     height: 80px;
     display: flex;
     align-items: center;
@@ -12,8 +12,21 @@ header {
     img {
         height: 50px;
         padding: 0 80px;
+        cursor: pointer;
 
     }
+}
+
+
+    .darkLinks {
+        a {
+            color: black;
+            &:hover {
+                color: rgba(0, 0, 0, 0.839);
+            }
+        }
+    }
+
 
     a {
         color: white;
@@ -22,5 +35,9 @@ header {
         font-size: 20px;
         margin: 0 20px;
     }
+
+    .darkHeader {
+        background-color: white;
+        box-shadow: 0px 1px 3px 0 rgba(0, 0, 0, 0.117);
+    }
    
-}
